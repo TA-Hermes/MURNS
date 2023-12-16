@@ -1,4 +1,6 @@
 # Mobile Unmanned Radio Network System
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10392593.svg)](https://doi.org/10.5281/zenodo.10392593)
+
 
 ![Static Badge](https://img.shields.io/badge/License-CC_BY--NC--SA%204.0-green?style=for-the-badge&logo=creativecommons&logoColor=green)
 ![GitHub contributors](https://img.shields.io/github/contributors/TA-Hermes/MURNS?style=for-the-badge)
