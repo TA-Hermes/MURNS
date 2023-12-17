@@ -1,46 +1,51 @@
 # Mobile Unmanned Radio Network System
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10392593.svg)](https://doi.org/10.5281/zenodo.10392593)
+![Static Badge](https://img.shields.io/badge/License-CC_BY--NC--SA%204.0-green?style=for-the-badge&logo=creativecommons&logoColor=green) ![GitHub contributors](https://img.shields.io/github/contributors/TA-Hermes/MURNS?style=for-the-badge) ![GitHub issues](https://img.shields.io/github/issues/TA-Hermes/MURNS?style=for-the-badge&color=red)
 
 
-![Static Badge](https://img.shields.io/badge/License-CC_BY--NC--SA%204.0-green?style=for-the-badge&logo=creativecommons&logoColor=green)
-![GitHub contributors](https://img.shields.io/github/contributors/TA-Hermes/MURNS?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/TA-Hermes/MURNS?style=for-the-badge&color=red)
+## MURNS is an interconnected network of radio repeaters aimed to decrease costs as much as possible. System is designed to be modular and can be used in various different applications.
+
+---
+
+## Example Uses
+- ### Increased Range
+
+	#### When extended is necessary, system can be configured in a line configuration where the repeaters are chained to create a long line of coverage.
+
+>
+
+- ### Wide Area Coverage
+
+	#### When communication in a wide area is needed system can be configured to act as a network where each repeater is connected to two other repeaters creating redundancy in the system. If one repeater fails, users can switch to other repeaters in the area.
+
+---
+
+### You can find specific setup instructions for building the system in docs but for quick reference:
+
+1. You need to get yourself two radios with VFO and VOX.
+2. You need to make a cable to connect the audio outputs to one another.
+3. You need to configure the frequencies 
+	- We recommend using highly different frequencies to avoid unwanted noise if your antennae is too close.
+	- We used transmitting offset of *`+007.600MHz`* for UHF and *`+000.600MHz`* for VHF
+	- You can set up CTCSS if you use multiple repeaters at similar frequencies.
+4. You need to fine tune the volumes for the VOX to work properly. 
+	- You can alternatively use a switch to trigger PTT but we have not tried it yet. 
+5. After testing the system you are good to go.
+
+---
+
+## Known Issues & Future Improvements
+
+#### If you find any problems with the repeaters please feel free to submit an issue.
+
+- [ ] Two way audio connection causing endless PTT.
+<br>
+- [ ] Adding transmitters for digital modes and publicly available frequencies.
+- [ ] Adding fully autonomous vehicles to adjust positions on the go.
+---
 
 
-### MURNS is an interconnected network of radio repeaters capable of linking multiple repeaters together in order to create a wide area of coverage.
-
-MURNS is currently for amateur radio only. Though you can use it with other frequencies however make sure to use the frequencies in respect with local regulations **DO NOT USE ANY FREQUENCY YOU ARE NOT ALLOWED ON**.
-
-# Example Use
-
-### The most basic example would be using the system standalone as a repater. Just set up the radio with an offset. Usually an offset of **-007.600 MHz** for UHF and **-000.700 MHz** for VHF. Optionally set up CTCSS encode on transmit for the radios. When setting the repeater up don' t forget that TX on repeater is RX on user, RX on repeater is TX on user.
-
-[PHOTO FOR REPEATER]
-
-### For this you only need 1 cable for sending the data to TXing radio but you cannot link them. 
-
-
-### Optionally you can use 2 or more tepeaters we recommend using directional antennae for linking them up. You need to set up one radio as "link", and the other as the "gate".
-
-### 1. Set up as usual using 2 cables.
-### 2. Set up the user' s radio normally
-### 3. For the "gate" radio put the ofsetted frequency (and tone if used) for recieving frequency. 
-### 4. Put an offset for transmit making sure the ofsetted frequency is the recieving frequency on user
-
-### This way you can link multiple repeaters in oreder to maintain connection in a wide area. 
-
-## Known Issues
-
- Cables causing radio to transmit endlessly: Currently there are no fixes but connectin only one 3.5 and 2.5 pair does counterract. 
-
-Volume: You need trial and error to find this. Custom radio card will help this. 
-
-## Build
-
-### You need to build a repeater to start, we recommend using a Duplex Repeater it is easier to make and more flexible to implement. 
-
-
-
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/TA-Hermes/MURNS">Mobile Unmanned Radio Network System</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/TA-Hermes">Hermes RF Solutions (Deniz Özmalkoç, Nehir Tanış & Egehan Ongun Özkula)</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
 
 
 
