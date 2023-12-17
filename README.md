@@ -40,7 +40,9 @@
 
 - [ ] Two way audio connection causing endless PTT.
 <br>
+
 - [ ] Adding transmitters for digital modes and publicly available frequencies.
+
 - [ ] Adding fully autonomous vehicles to adjust positions on the go.
 ---
 
