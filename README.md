@@ -34,13 +34,13 @@
 
 ---
 
-## Known Issues & Future Improvements
+## Known Issues
 
 #### If you find any problems with the repeaters please feel free to submit an issue.
 
-- [ ] Two way audio connection causing endless PTT.
-<br>
-
+- [x] \#1 ~~Two way audio connection causing endless PTT.~~
+---
+## Future Improvements
 - [ ] Adding transmitters for digital modes and publicly available frequencies.
 
 - [ ] Adding fully autonomous vehicles to adjust positions on the go.
