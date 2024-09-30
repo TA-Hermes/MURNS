@@ -8,29 +8,14 @@
 ---
 
 ## Example Uses
+
 - ### Increased Range
 
-	#### When extended is necessary, system can be configured in a line configuration where the repeaters are chained to create a long line of coverage.
+	 When extended range is necessary,  system ban be configured to increase range by daisy chaining multiple units to one another until the desired range is reached. 
 
->
+- ### Redundancy
 
-- ### Wide Area Coverage
-
-	#### When communication in a wide area is needed system can be configured to act as a network where each repeater is connected to two other repeaters creating redundancy in the system. If one repeater fails, users can switch to other repeaters in the area.
-
----
-
-### You can find specific setup instructions for building the system in docs but for quick reference:
-
-1. You need to get yourself two radios with VFO and VOX.
-2. You need to make a cable to connect the audio outputs to one another.
-3. You need to configure the frequencies 
-	- We recommend using highly different frequencies to avoid unwanted noise if your antennae is too close.
-	- We used transmitting offset of *`+007.600MHz`* for UHF and *`+000.600MHz`* for VHF
-	- You can set up CTCSS if you use multiple repeaters at similar frequencies.
-4. You need to fine tune the volumes for the VOX to work properly. 
-	- You can alternatively use a switch to trigger PTT but we have not tried it yet. 
-5. After testing the system you are good to go.
+	When it is necessary to provide communication without disturbance, the system can be configured to be redundant with two or more different lines running simultaneously.  
 
 ---
 
@@ -41,9 +26,10 @@
 - [x] \#1 ~~Two way audio connection causing endless PTT.~~
 ---
 ## Future Improvements
-- [ ] Adding transmitters for digital modes and publicly available frequencies.
 
-- [ ] Adding fully autonomous vehicles to adjust positions on the go.
+#### If you have any suggestions please feel free to submit your suggestions. 
+
+- [ ] Adding encoder/decoders for digital communication.
 ---
 
 
