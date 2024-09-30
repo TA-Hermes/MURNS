@@ -3,7 +3,7 @@
 ![Static Badge](https://img.shields.io/badge/License-CC_BY--NC--SA%204.0-green?style=for-the-badge&logo=creativecommons&logoColor=green) ![GitHub contributors](https://img.shields.io/github/contributors/TA-Hermes/MURNS?style=for-the-badge) ![GitHub issues](https://img.shields.io/github/issues/TA-Hermes/MURNS?style=for-the-badge&color=red)
 
 
-## MURNS is an interconnected network of radio repeaters aimed to decrease costs as much as possible. System is designed to be modular and can be used in various different applications.
+## MURNS is an interconnected network of radio repeaters aimed to decrease the upfront cost of a conventional repeater system as much as possible. System is designed to be modular and can be used in various different applications.
 
 ---
 
